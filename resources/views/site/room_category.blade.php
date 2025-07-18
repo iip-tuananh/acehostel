@@ -157,7 +157,7 @@
                                 </div>
 
                                 <div class="bot">
-                                    <span class="price">Bắt đầu thuê từ <span class="amout">{{ $room->price }}</span></span>
+                                    <span class="price">Start renting from <span class="amout">{{ $room->price }}</span></span>
                                     <a href="{{ route('front.getRoom', $room->slug) }}" class="awe-btn awe-btn-13">Detail</a>
                                 </div>
                             </div>
