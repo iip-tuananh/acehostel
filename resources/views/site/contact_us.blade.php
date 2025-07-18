@@ -139,11 +139,11 @@
                                     <div class="col-sm-12" ng-if="sendSuccess">
                                         <div class="space10"></div> <br>
                                         <div class="send-success-message">
-                                            <p style="padding-bottom: 0px">Cảm ơn bạn đã để lại lời nhắn. Tin nhắn đã được gửi</p>
+                                            <p style="padding-bottom: 0px">Thank you for your message. It has been sent successfully.</p>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
-                                        <button type="button" class="awe-btn awe-btn-13" ng-click="submitContact()">Gửi tin nhắn</button>
+                                        <button type="button" class="awe-btn awe-btn-13" ng-click="submitContact()">Send message</button>
                                     </div>
                                 </div>
                                 <div id="contact-content"></div>

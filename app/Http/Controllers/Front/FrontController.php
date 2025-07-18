@@ -740,17 +740,17 @@ class FrontController extends Controller
         $rule  =  [
             'name'  => 'required',
             'message'  => 'required',
-            'phone' => 'required|regex:/^(0)[0-9]{9,11}$/',
+            'phone' => 'required|regex:/^[0-9]+$/',
         ];
 
         $validate = Validator::make(
             $request->all(),
             $rule,
             [
-                'name.required' => 'Vui lòng nhập họ tên',
-                'phone.required' => 'Vui lòng nhập số điện thoại',
-                'phone.regex' => 'Số điện thoại không đúng định dạng',
-                'message.required' => 'Vui lòng nhập nội dung liên hệ',
+                'name.required' => 'Please enter your full name',
+                'phone.required' => 'Please enter your phone number',
+                'phone.regex' => 'Invalid phone number format',
+                'message.required' => 'Please enter your message',
             ]
         );
 
