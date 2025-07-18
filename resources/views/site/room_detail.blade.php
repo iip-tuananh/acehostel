@@ -54,7 +54,7 @@
             <div class="container">
                 <div class="text text-center">
                     <h2>{{ $room->name }}</h2>
-                    <p>Hãy tận hưởng khoảng thời gian thật thoải mái tại khách sạn của chúng tôi.</p>
+                    <p>Enjoy a truly relaxing stay at our hotel</p>
                 </div>
             </div>
 
@@ -101,7 +101,7 @@
                             <div class="room-detail_total">
                                 <img src="/site/images/icon-logo.png" alt="" class="icon-logo">
 
-                                <h6>Bắt đầu thuê từ</h6>
+                                <h6>Start renting from</h6>
 
                                 <p class="price">
                                     <span class="amout" style="font-size: 20px !important;">{{ $room->price }}</span>
@@ -109,11 +109,11 @@
                             </div>
 
                             <div class="room-detail_form">
-                                <label>Diện tích</label> <span>{{ $room->area }}</span>
+                                <label>Area</label> <span>{{ $room->area }}</span>
 
-                                <label>Số khách tối đa</label> <span>{{ $room->maximum_occupancy }}</span>
+                                <label>Maximum Occupancy</label> <span>{{ $room->maximum_occupancy }}</span>
 
-                                <label>Giường ngủ</label> {{ $room->bedrooms }}
+                                <label>Bed</label> {{ $room->bedrooms }}
 
 
                                 <button class="awe-btn awe-btn-13">Book Now</button>
@@ -230,7 +230,7 @@
 
             </style>
             <div class="room-detail_compare">
-                <h2 class="room-compare_title">Xem thêm các phòng khác</h2>
+                <h2 class="room-compare_title">View more rooms</h2>
 
                 <div class="room-compare_content">
 
