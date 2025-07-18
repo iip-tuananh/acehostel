@@ -110,7 +110,6 @@
                 {data: 'name', title: 'Hạng phòng'},
                 {data: 'image', title: 'Hình ảnh'},
                 {data: 'area', title: 'Diện tích'},
-                {data: 'view', title: 'View'},
                 {data: 'bedrooms', title: 'Phòng ngủ'},
                 {data: 'category_special', title: 'Danh mục đặc biệt'},
                 {
