@@ -34,7 +34,6 @@ Quản lý dịch vụ
             data: 'image', title: "Hình ảnh", orderable: false, className: "text-center",
         },
         {data: 'name',title: 'Tiêu đề'},
-        {data: 'cate_id',title: 'Danh mục'},
         {data: 'show_home_page',title: 'Hiển thị ngoài trang chủ',className: "text-center"},
         {data: 'created_by',title: 'Người tạo'},
         {data: 'updated_by',title: 'Người cập nhật'},

@@ -117,12 +117,12 @@
                         </a>
                     </li>
 
-                    <li class="nav-item">
-                        <a href="{{ route('ServiceCategory.index') }}" class="nav-link {{ Request::routeIs('ServiceCategory.index') ? 'active' : '' }}">
-                            <i class="far fas  fa-angle-right nav-icon"></i>
-                            <p>Quản lý danh mục dịch vụ</p>
-                        </a>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a href="{{ route('ServiceCategory.index') }}" class="nav-link {{ Request::routeIs('ServiceCategory.index') ? 'active' : '' }}">--}}
+{{--                            <i class="far fas  fa-angle-right nav-icon"></i>--}}
+{{--                            <p>Quản lý danh mục dịch vụ</p>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
                     <li class="nav-item">
                         <a href="{{ route('services.index') }}" class="nav-link {{ Request::routeIs('services.index') ? 'active' : '' }}">
                             <i class="far fas  fa-angle-right nav-icon"></i>
