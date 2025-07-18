@@ -1,5 +1,5 @@
 @extends('site.layouts.master')
-@section('title')Liên hệ - {{ $config->web_title }}@endsection
+@section('title')Contact - {{ $config->web_title }}@endsection
 @section('description'){{ strip_tags(html_entity_decode($config->introduction)) }}@endsection
 @section('image'){{ @$config->image->path ?? '' }}@endsection
 

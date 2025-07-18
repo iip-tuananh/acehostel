@@ -1,6 +1,6 @@
 @extends('site.layouts.master')
 
-@section('title')Thư viện - {{ $config->web_title }}@endsection
+@section('title')Photos - {{ $config->web_title }}@endsection
 @section('description'){{ strip_tags(html_entity_decode($config->introduction)) }}@endsection
 @section('image'){{@$config->image->path ?? ''}}@endsection
 
