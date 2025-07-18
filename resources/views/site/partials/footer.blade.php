@@ -50,20 +50,20 @@
                     <div class="widget">
                         <h4 class="widget-title">Menu</h4>
                         <ul>
-                            <li><a href="{{ route('front.home-page') }}">Trang chủ</a></li>
-                            <li><a href="{{ route('front.getListRooms') }}">Hạng phòng</a></li>
-                            <li><a href="{{ route('front.services') }}">Dịch vụ</a></li>
-                            <li><a href="{{ route('front.contact') }}">Liên hệ</a></li>
+                            <li><a href="{{ route('front.home-page') }}">Home</a></li>
+                            <li><a href="{{ route('front.getListRooms') }}">Rooms</a></li>
+                            <li><a href="{{ route('front.services') }}">Services</a></li>
+                            <li><a href="{{ route('front.contact') }}">Contact</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-xs-4 col-lg-2">
                     <div class="widget">
-                        <h4 class="widget-title">Về chúng tôi</h4>
+                        <h4 class="widget-title">About Us</h4>
                         <ul>
-                            <li><a href="{{ route('front.about_page') }}">Về chúng tôi</a></li>
-                            <li><a href="{{ route('front.galleries') }}">Thư viện</a></li>
+                            <li><a href="{{ route('front.about_page') }}">About Us</a></li>
+                            <li><a href="{{ route('front.galleries') }}">Photos</a></li>
                         </ul>
                     </div>
                 </div>
