@@ -5,6 +5,7 @@
 <meta name="format-detection" content="telephone=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 
+<meta name="google" content="notranslate">
 
 
 <link rel="shortcut icon" href="{{@$config->favicon->path ?? ''}}" type="image/x-icon">
@@ -62,7 +63,7 @@
 
 <script type="text/javascript">
     function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'vi',includedLanguages:'en,hi,vi,zh-CN' }, 'translate_select');
+        new google.translate.TranslateElement({pageLanguage: 'en',includedLanguages:'en,hi,vi,zh-CN' }, 'translate_select');
     }
 </script>
 

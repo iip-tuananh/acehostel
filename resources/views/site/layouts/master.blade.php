@@ -69,6 +69,8 @@
             });
         }
 
+
+
         function translateheader(lang) {
             localStorage.setItem('selectedLang', lang);
             console.log(lang)
@@ -100,8 +102,8 @@
 
 
         document.addEventListener('DOMContentLoaded', function () {
-            let savedLang = localStorage.getItem('selectedLang') || 'vi';
-             setActiveLang(savedLang);
+            let savedLang = localStorage.getItem('selectedLang') || 'en';
+            setActiveLang(savedLang);
         });
 
 

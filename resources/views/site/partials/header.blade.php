@@ -37,12 +37,12 @@
             <!-- HEADER MENU -->
             <nav class="header_menu">
                 <ul class="menu">
-                    <li><a href="{{ route('front.home-page') }}">Trang chủ</a></li>
-                    <li><a href="{{ route('front.getListRooms') }}">Hạng phòng</a></li>
-                    <li><a href="{{ route('front.services') }}">Dịch vụ</a></li>
-                    <li><a href="{{ route('front.galleries') }}">Thư viện</a></li>
-                    <li><a href="{{ route('front.about_page') }}">Về chúng tôi</a></li>
-                    <li><a href="{{ route('front.contact') }}">Liên hệ</a></li>
+                    <li><a href="{{ route('front.home-page') }}">HOME</a></li>
+                    <li><a href="{{ route('front.getListRooms') }}">ROOMS</a></li>
+                    <li><a href="{{ route('front.services') }}">SERVICES</a></li>
+                    <li><a href="{{ route('front.galleries') }}">PHOTOS</a></li>
+                    <li><a href="{{ route('front.about_page') }}">ABOUT US</a></li>
+                    <li><a href="{{ route('front.contact') }}">CONTACT</a></li>
                 </ul>
             </nav>
             <!-- END / HEADER MENU -->
