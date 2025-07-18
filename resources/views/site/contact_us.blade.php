@@ -91,7 +91,7 @@
         <div class="sub-banner">
             <div class="container">
                 <div class="text text-center">
-                    <h2>Liên hệ</h2>
+                    <h2>Contact</h2>
                 </div>
             </div>
         </div>

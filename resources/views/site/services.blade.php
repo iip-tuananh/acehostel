@@ -55,7 +55,7 @@
         <div class="sub-banner">
             <div class="container">
                 <div class="text text-center">
-                    <h2>Dịch vụ</h2>
+                    <h2>Services</h2>
                 </div>
             </div>
         </div>

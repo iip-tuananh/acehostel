@@ -158,7 +158,7 @@
 
                                 <div class="bot">
                                     <span class="price">Bắt đầu thuê từ <span class="amout">{{ $room->price }}</span></span>
-                                    <a href="{{ route('front.getRoom', $room->slug) }}" class="awe-btn awe-btn-13">Xem chi tiết</a>
+                                    <a href="{{ route('front.getRoom', $room->slug) }}" class="awe-btn awe-btn-13">Detail</a>
                                 </div>
                             </div>
                         </div>

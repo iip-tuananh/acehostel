@@ -55,7 +55,7 @@
         <div class="sub-banner">
             <div class="container">
                 <div class="text text-center">
-                    <h2>Thư viện</h2>
+                    <h2>Photos</h2>
                 </div>
             </div>
         </div>

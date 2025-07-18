@@ -56,7 +56,7 @@
         <div class="sub-banner">
             <div class="container">
                 <div class="text text-center">
-                    <h2>Về chúng tôi</h2>
+                    <h2>About us</h2>
                 </div>
             </div>
 

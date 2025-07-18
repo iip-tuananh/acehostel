@@ -133,8 +133,8 @@
                 <div class="row">
                     <div class="col-md-3">
                         <ul class="room-detail_tab-header">
-                            <li class="active"><a href="#overview" data-toggle="tab">Mô tả</a></li>
-                            <li><a href="#amenities" data-toggle="tab">Tiện ích</a></li>
+                            <li class="active"><a href="#overview" data-toggle="tab">Description</a></li>
+                            <li><a href="#amenities" data-toggle="tab">Utilities</a></li>
                         </ul>
                     </div>
 
@@ -251,7 +251,7 @@
                                         <li><i class="lotus-icon-bed"></i> {{ $otherRoom->bedrooms }}</li>
                                     </ul>
 
-                                    <a href="{{ route('front.getRoom', $otherRoom->slug) }}" class="awe-btn awe-btn-default">Chi tiết</a>
+                                    <a href="{{ route('front.getRoom', $otherRoom->slug) }}" class="awe-btn awe-btn-default">Detail</a>
 
                                 </div>
 

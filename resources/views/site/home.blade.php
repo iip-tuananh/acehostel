@@ -230,7 +230,7 @@
                                             <p class="price">
                                                 {{ $room->price }}
                                             </p>
-                                            <a href="{{ route('front.getRoom', $room->slug) }}" class="awe-btn awe-btn-default">Chi tiết</a>
+                                            <a href="{{ route('front.getRoom', $room->slug) }}" class="awe-btn awe-btn-default">Detail</a>
                                         </div>
 
                                     </div>
@@ -296,7 +296,7 @@
                 <div class="row">
                     <div class="col col-xs-12 col-lg-6 col-lg-offset-3">
                         <div class="ot-heading mb40 row-20 text-center">
-                            <h2>Tiện ích</h2>
+                            <h2>Utilities</h2>
                         </div>
                     </div>
                 </div>
@@ -404,7 +404,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-lg-6 col-lg-offset-3">
                         <div class="ot-heading pt80 pb30 text-center row-20">
-                            <h2 class="mb15">Dịch vụ</h2>
+                            <h2 class="mb15">Services</h2>
                         </div>
                     </div>
                 </div>
