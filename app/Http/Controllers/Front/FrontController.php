@@ -755,7 +755,7 @@ class FrontController extends Controller
         );
 
         if ($validate->fails()) {
-            return $this->responseErrors('Gửi yêu cầu thất bại!', $validate->errors());
+            return $this->responseErrors('Request failed!', $validate->errors());
         }
 
         $contact = new Contact();
@@ -765,7 +765,7 @@ class FrontController extends Controller
         $contact->email = $request->email ?? null;
         $contact->save();
 
-        return $this->responseSuccess('Gửi yêu cầu thành công!');
+        return $this->responseSuccess('Request sent successfully!');
     }
 
     public function galleries(Request $request) {
